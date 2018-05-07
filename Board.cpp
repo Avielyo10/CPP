@@ -44,7 +44,7 @@ square& Board::operator[](const pair<int,int>& someIndex){
     return board[someIndex.first][someIndex.second];
 }
 Board& Board::operator=(char c){
-    if(c=='X'||c=='O'||c=='.'){
+    if(c=='.'){
          for(int i = 0; i < size;++i){
             for(int j = 0; j < size;++j){
                 board[i][j] = c;
