@@ -57,6 +57,9 @@ Board& Board::operator=(char c){
     return *this;
 }
 Board& Board::operator=(Board &b){
+    if(size>0){
+        this->~Board();
+    }
     size=b.size;
     board = new square*[size];
     for(int i = 0; i < size;++i){
