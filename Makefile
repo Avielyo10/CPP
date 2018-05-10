@@ -2,7 +2,7 @@ CXX=clang++-5.0
 CXXFLAGS=-std=c++17 
 
 all:Board.o square.o
-	find -name main.cpp
+	cat ./tester/main.cpp
 Board.o: 
 	$(CXX) $(CXXFLAGS) -c Board.cpp -o Board.o
 square.o:
