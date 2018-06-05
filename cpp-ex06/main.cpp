@@ -54,4 +54,8 @@ int main() {
 	cout << "Good bye!" << endl;
 
 	return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ffafbd965be7ae0f3581e221872a09fc2ee5bd40

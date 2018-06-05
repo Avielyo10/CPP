@@ -29,4 +29,8 @@ class IllegalCharException{
     friend ostream& operator<< (ostream& out,IllegalCharException ex){
         return cout << ex.c <<endl;
     }
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> ffafbd965be7ae0f3581e221872a09fc2ee5bd40
